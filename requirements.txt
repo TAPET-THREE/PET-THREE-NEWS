@@ -1,0 +1,3 @@
+Plaintext
+feedparser
+line-bot-sdk
