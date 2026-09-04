@@ -149,8 +149,3 @@ def send_line_message():
 
 if __name__ == "__main__":
     send_line_message()
-
-
-if __name__ == "__main__":
-    news_text = get_pet_news()
-    send_line_message(news_text)
