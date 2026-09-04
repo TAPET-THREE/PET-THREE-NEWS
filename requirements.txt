@@ -1,2 +1,4 @@
 feedparser
 line-bot-sdk
+requests
+beautifulsoup4
