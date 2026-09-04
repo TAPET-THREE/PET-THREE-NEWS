@@ -45,7 +45,7 @@ def clean_title(title):
 
 def build_flex_message():
     """Google News RSSを取得し、LINEのFlex Message（カルーセル型）を生成する"""
-    query = 'ペット -ペットボトル (ニュース OR 話題 OR 犬 OR 猫 OR 保護)'
+    query = 'ペット -ペットボトル (ニュース OR 話題 OR 犬 OR 猫 OR 保護) when:2d'
     encoded_query = urllib.parse.quote(query)
     rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=ja&gl=JP&ceid=JP:ja"
 
